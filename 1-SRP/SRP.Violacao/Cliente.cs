@@ -41,7 +41,7 @@ namespace SOLID._1_SRP.SRP.Violacao
                 cmd.ExecuteNonQuery();
             }
 
-            var mail = new MailMessage("emapresa@empresa.com", Email);
+            var mail = new MailMessage("empresa@empresa.com", Email);
             var client = new SmtpClient
             {
                 Port = 25,
