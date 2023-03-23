@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLID._4_ISP.ISP.Violacao
+namespace SOLID._4_ISP.ISP.Solucao
 {
-	internal class CadastroCliente : ICadastro
+	internal class CadastroCliente : ICadastroCliente
 	{
 		public void ValidarDados()
 		{

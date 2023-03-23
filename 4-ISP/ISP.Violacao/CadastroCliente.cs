@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID._4_ISP.ISP.Violacao
 {
-	internal class CadastroCliente : ICadastro
+	internal class CadastroCliente : ICadastroCliente
 	{
 		public void ValidarDados()
 		{

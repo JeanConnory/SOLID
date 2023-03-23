@@ -8,5 +8,8 @@ namespace SOLID._4_ISP.ISP.Solucao
 {
 	internal interface ICadastroProduto
 	{
+		void ValidarDados();
+
+		void SalvarBanco();
 	}
 }

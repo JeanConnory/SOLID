@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLID._4_ISP.ISP.Violacao
+namespace SOLID._4_ISP.ISP.Solucao
 {
-	internal class CadastroProduto : ICadastro
+	internal class CadastroProduto : ICadastroProduto
 	{
 		public void ValidarDados()
 		{
@@ -16,11 +16,6 @@ namespace SOLID._4_ISP.ISP.Violacao
 		public void SalvarBanco()
 		{
 			// Insert na tabela Produto
-		}
-
-		public void EnviarEmail()
-		{
-			// Produto não tem e-mail, o que eu faço agora???
 		}
 	}
 }
